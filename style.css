@@ -11,7 +11,7 @@
 
 main{
   width: 960px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .step-box{
@@ -54,7 +54,7 @@ main{
   left: 0;
   background-color: #FF9A4B;
   color: #fff;
-  padding: 1px;
+  padding: 3px;
 }
 
 .title{
@@ -63,7 +63,7 @@ main{
 @media screen and (max-width:768px){
  main{
   width: 90%;
-  margin: 0 auto;
+  margin: 50px auto;
  }
  .clearfix::after {
   content: "";
@@ -73,7 +73,7 @@ main{
  .step-box{
   float: none;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
   position: relative;
   border: 1px solid #eee;
